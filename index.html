@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Cash Register</title>
+        <style>
+            .inp{
+                margin-left: 10px;
+            }
+            .marginLeft{
+            margin-left:10%;
+        }
+        .center{
+            margin-left: 38%;
+            margin-right: 38%;
+            color: black;
+            font-weight: bolder;
+        }
+        .inp{
+            border-left:gray;
+            border-top:gray;
+            border-bottom:gray;
+            border-right:gray;
+            border-style: solid;
+            margin-left: 0%;
+            
+        }
+        </style>
+
+    </head>
+    <body style="background-color: beige;">
+        <div style="border:3px solid lightgrey;margin-left:25%;margin-right:25%;background-color:darkolivegreen ;;">
+            <h1 style="text-align:center;color:red;"><u>Cash Register</u></h1>
+            <br/><br/><br/><br/>
+            <div class="center">
+            <label for="bill">Enter Bill Amount</label><br/>
+            <input  id="bill" type="text" class="inp"><br/><br/>
+            <label for="cash">Enter Amount received</label><br/>
+            <input  id="cash" type="text" class="inp">
+            <br/><br/><br/>
+            <button id="subBtn" >Submit</button>
+
+            </div>
+
+
+
+        </div>
+        <br/>
+        <div id="output" class="center"></div>
+        <div id="output2" class="center"></div>
+        <br/>
+        <div id="output1" class="center"></div>
+        <script src="cashreg.js"></script>
+    </body>
+</html>
