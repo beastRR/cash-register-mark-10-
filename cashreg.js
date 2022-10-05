@@ -1,6 +1,6 @@
 const input= document.querySelectorAll(".inp");
 const message = document.querySelector('#error-message');
-const noOfNotes = document.querySelectorAll('.no-of-notes');
+const noteCount = document.querySelectorAll('.no-of-notes');
 const notes=[1, 5, 10, 20, 100, 500, 2000];
 var remainingAmount= cash-bill;
 subBtn.addEventListener("click",callBack);
@@ -43,7 +43,7 @@ function calculateChange(bill,cash,arr){
        if(noOfNotes>=1){
        resp.push(` NOTES OF ${arr[i]} is ${noOfNotes}<br>`);
         // console.log(noOfNotes);
-           noOfNotes[i].innerHTML = numberOfNotes;
+           noteCount[i].innerHTML = numberOfNotes;
         
     }
        i--;
