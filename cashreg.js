@@ -43,7 +43,7 @@ function calculateChange(bill,cash,arr){
        if(noOfNotes>=1){
        resp.push(` NOTES OF ${arr[i]} is ${noOfNotes}<br>`);
         // console.log(noOfNotes);
-           noteCount[i].innerHTML = numberOfNotes;
+           noteCount[i].innerHTML = noOfNotes;
         
     }
        i--;
