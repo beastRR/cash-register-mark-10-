@@ -1,0 +1,22 @@
+.change-table,th,td {
+
+    border: 1.5px solid yellow;
+    border-collapse:collapse;
+
+}
+
+.footer{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: lightblue;
+    text-align: center;
+}
